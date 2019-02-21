@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="bgYellow">
+            <div class="bgYellow__content">
+
+                <div class="header__logo-box container">
+                    <img src="img/logo.png" alt="Logo" class="header__logo">
+                </div>
+
+                <div class="button flex " id="button">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <div class="contentWrap">
+            <img class="contentWrap__img-1" src="./img/providing.png" alt="providing">
+            <img class="contentWrap__img-2" src="./img/wideRange.png" alt="providing">
+            <h3 class="contentWrap__heading">The production process is highly
+                <br> automated and systematic</h3>
+        </div>
+
+
+        <div class="image_animation">
+            <img src="img/packet.png" alt="evita-image">
+        </div>
+
+
+    </header>
+    <nav class="navbar">
+        <div class="container flex nav__content">
+            <ul class="navigation__list flex">
+                <li class="navigation__item">
+                    <a href="home"> Home </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="home"> About</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="home"> Product </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="home"> Download </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="home"> Business Inquiry </a>
+                </li>
+                <li class="navigation__item">
+                    <a href="home"> Contact </a>
+                </li>
+            </ul>
+
+            <div class="policy flex">
+                <p> &copy; E-vita - All rights reserved</p>
+                <p>Terms of use | Privacy Policy</p>
+            </div>
+        </div>
+
+
+
+    </nav>
+
+    <script>
+        const button = document.getElementById('button');
+
+        button.addEventListener('click', function () {
+            button.classList.toggle('cross');
+        });
+    </script>
+
+</body>
+
+</html>
