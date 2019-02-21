@@ -298,22 +298,22 @@ nav ul li:not(:last-child) {
 @keyframes heading_animation3 {
   0% {
     opacity: 0;
-    top: +300px;
+    top: +350px;
   }
 
   25% {
     opacity: 0;
-    top: +300px;
+    top: +350px;
   }
 
   75% {
     opacity: 1;
-    top: 50px;
+    top: 0px;
   }
 
   100% {
     opacity: 1;
-    top: 50px;
+    top: 0px;
   }
 }
 
