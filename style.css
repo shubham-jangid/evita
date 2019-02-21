@@ -159,6 +159,15 @@ body {
   animation: moveInBottom 1s linear;
 }
 
+/* social site links */
+.social {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40vh;
+  left: 0;
+}
+
 /* navigation */
 .navbar {
   height: 60px;
@@ -201,6 +210,16 @@ nav ul li:not(:last-child) a {
   font-weight: 300;
   letter-spacing: 0.2px;
 }
+
+.fp-nav {
+  transform: rotate(90deg) translateY(-50%);
+  top: 50%;
+}
+.fp-nav {
+  position: fixed;
+  top: 50%;
+}
+
 @keyframes bg-move {
   from {
     background-position: 0% 0%;
