@@ -342,7 +342,16 @@ nav ul li:not(:last-child) {
     text-align: justify;
     font-size: 16px;
   }
+  .image_animation {
+    position: absolute;
+    top: 37vh;
+    /* left: 0vw; */
+    animation: moveInBottom 1.5s linear;
+  }
 
+  .contentWrap {
+    display: none;
+  }
   .fp-nav {
     right: 0;
   }
